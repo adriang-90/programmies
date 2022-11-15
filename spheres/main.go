@@ -15,6 +15,6 @@ func sphereStuff(r int) (d int, v float32, p float32) {
 }
 
 func main() {
-	sphere_d, sphere_v, sphere_p := sphereStuff(10)
-	fmt.Printf("diameter: %v, circumference: %v, area: %v\n", sphere_d, sphere_v, sphere_p)
+	sphereD, sphereV, sphereP := sphereStuff(10)
+	fmt.Printf("diameter: %v, circumference: %v, area: %v\n", sphereD, sphereV, sphereP)
 }
